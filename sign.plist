@@ -2,23 +2,30 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-   <key>application-identifier</key>
-   <string>com.autopear.ipainstaller</string>
-   <key>com.apple.private.mobileinstall.allowedSPI</key>
-   <array>
-      <string>Install</string>
-      <string>Browse</string>
-      <string>Uninstall</string>
-      <string>InstallForLaunchServices</string>
-      <string>UninstallForLaunchServices</string>
-   </array>
-   <key>com.apple.springboard.debugapplications</key>
-   <true/>
-   <key>get-task-allow</key>
-   <true/>
-   <key>task_for_pid-allow</key>
-   <true/>
-   <key>platform-application</key>
-   <true/>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>http://www.bitart.com/WirelessAdHocDemo/WirelessAdHocDemo.ipa</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.bitart.WirelessAdHocDemo</string>
+                <key>bundle-version</key>
+                <string>1.0</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>Wireless AdHoc Demo</string>
+            </dict>
+        </dict>
+    </array>
 </dict>
 </plist>
